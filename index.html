@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">    
+        <h4>Formulario de Pedido</h4>
+        <p>Please review orders information below. Click Edit to change this record, click Delete to delete the record, or click Cancel/Close to return back</p>
+        <div class="row indigo lighten-4 section">
+            <div class="col l6">
+                <a class='btn white black-text' href='#'>Record</a>
+            </div>
+            <div class="col l6">
+                <a class='btn white black-text' href='#' data-target='dropdown1'>Ver</a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col l6">
+                <p>*-Indica campo requerido </p>
+            </div>
+            <div class="col l6">
+                <a class="btn white black-text" href="#">Ok</a>
+                <a class="btn white black-text" href="#">Eliminar</a>
+                <a class="btn white black-text" href="#">Cancelar</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col m12 l6">
+                <p>Cliente:<input type="text" name="cliente"></p>
+            </div>
+            <div class="col m12 l6">
+                <p>Dirección:<input type="text" name="direccion"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col m12 l6">
+                <p>Empleado:<input type="text" name="empleado"></p>
+            </div>
+            <div class="col m12 l6">
+                <p>Ciudad:<input type="text" name="ciudad"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col m12 l6">
+                <p>Fecha de Pedido:<input type="date" name="fecha_pedido"></p>
+            </div>
+            <div class="col m12 l6">
+                <p>Región:<input type="text" name="region"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col m12 l6">
+                <p>Fecha Requerida:<input type="date" name="fecha_req"></p>
+            </div>
+            <div class="col m12 l6">
+                <p>Código Postal:<input type="number" name="postal"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col m12 l6">
+                <p>Fecha de Envío:<input type="date" name="fecha_envio"></p>
+            </div>
+            <div class="col m12 l6">
+                <p>Lugar de Embarcación:<input type="text" name="lugar_emb"></p>
+            </div>
+        </div>
+
+        <table class="z-depth-3 section">
+            <thead>
+                <tr>
+                    <th>Nombre del producto</th>
+                    <th>Precio unitario</th>
+                    <th>Cantidad</th>
+                    <th>Descuento</th>
+                    <th>Categoría de producto</th>
+                    <th>Compañía proveedora</th>
+                    <th>Precio ampliado</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>Mando PS4</td>
+                    <td>S/.50.00</td>
+                    <td>2</td>
+                    <td>20.00%</td>
+                    <td>Tecnología</td>
+                    <td>Sony</td>
+                    <td>S/.100.00</td>
+                </tr>
+                <tr>
+                    <td>Monitor LED 21.5</td>
+                    <td>S/.400.00</td>
+                    <td>1</td>
+                    <td>10.00%</td>
+                    <td>Tecnología</td>
+                    <td>HP</td>
+                    <td>S/.400.00</td>
+                </tr>
+                <tr>
+                    <td>Guitarra Eléctrica</td>
+                    <td>S/.350.00</td>
+                    <td>2</td>
+                    <td>20.00%</td>
+                    <td>Instrumentos</td>
+                    <td>Gibson</td>
+                    <td>S/.700.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row">
+                <div class="col l6">
+                    <p>Nombre de Embarcación:<input type="text" name="nombre_emb"></p>
+                    <br>
+                    <p>Trayecto de Embarcación:<input type="text" name="trayecto_emb"></p>
+                </div>
+
+                <div class="col l6">
+                    
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col l6">
+                <p>*-Indica campo requerido </p>
+            </div>
+            <div class="col l6">
+                <a class="btn white black-text" href="#">Ok</a>
+                <a class="btn white black-text" href="#">Eliminar</a>
+                <a class="btn white black-text" href="#">Cancelar</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

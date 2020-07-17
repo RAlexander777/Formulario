@@ -9,26 +9,42 @@
     <title>Formulario</title>
 </head>
 <body>
-    <div class="container">    
+    <div class="container">
+        <nav>
+            <div class="nav-wrapper center-align indigo lighten-4">
+                <div class="col s12">
+                    <a href="#!" class="breadcrumb">Home</a>
+                    <a href="#!" class="breadcrumb">Formulario de pedido</a>
+                </div>
+            </div>
+        </nav>    
         <h4>Formulario de Pedido</h4>
-        <p>Please review orders information below. Click Edit to change this record, click Delete to delete the record, or click Cancel/Close to return back</p>
+        <blockquote>Please review orders information below. Click Edit to change this record, click Delete to delete the record, or click Cancel/Close to return back</blockquote>
         <div class="row indigo lighten-4 section">
             <div class="col l6">
-                <a class='btn white black-text' href='#'>Record</a>
+                <a class='btn white black-text waves-effect waves-teal' href='#'>Record</a>
             </div>
             <div class="col l6">
-                <a class='btn white black-text' href='#' data-target='dropdown1'>Ver</a>
+                <ul id="dropdown2" class="dropdown-content">
+                    Ver
+                    <li><a href="#">uno</a></li>
+                    <li><a href="#">dos</a></li>
+                    <li><a href="#">tres</a></li>
+                </ul>
+                <a class="btn dropdown-trigger white black-text right waves-effect waves-teal" href="#!" data-target="dropdown2">Ver<i class="material-icons right">arrow_drop_down</i></a>
             </div>
         </div>
         
         <div class="row">
-            <div class="col l9">
-                <p>*-Indica campo requerido </p>
+            <div class="col l6">
+                <blockquote>*-Indica campo requerido </blockquote>
             </div>
-            <div class="col l3">
-                <a class="btn white black-text" href="#">Ok</a>
-                <a class="btn white black-text" href="#">Eliminar</a>
-                <a class="btn white black-text" href="#">Cancelar</a>
+            <div class="col l6">
+                <div class="right">
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Ok</a>
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Eliminar</a>
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Cancelar</a>
+                </div>
             </div>
         </div>
 
@@ -81,9 +97,9 @@
             <div class="row">
                 <div class="col l12">
                     <input class="section" type="search" name="busqueda" id="busqueda" placeholder="Búsqueda Rápida">
-                    <a class="btn white black-text" href="#">Detalles de nueva orden</a>
-                    <a class="btn white black-text" href="#">Acciones</a>
-                    <a class="btn white black-text" href="#">Reportar</a>
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Detalles de nueva orden</a>
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Acciones</a>
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Reportar</a>
                 </div>
             </div>
             <table>
@@ -101,7 +117,7 @@
         
                 <tbody>
                     <tr>
-                        <td>Mando PS4</td>
+                        <td class="teal-text text-darken-2">Mando PS4</td>
                         <td>S/.50.00</td>
                         <td>2</td>
                         <td>20.00%</td>
@@ -110,7 +126,7 @@
                         <td>S/.100.00</td>
                     </tr>
                     <tr>
-                        <td>Monitor LED 21.5</td>
+                        <td class="teal-text text-darken-2">Monitor LED 21.5</td>
                         <td>S/.400.00</td>
                         <td>1</td>
                         <td>10.00%</td>
@@ -119,7 +135,7 @@
                         <td>S/.400.00</td>
                     </tr>
                     <tr>
-                        <td>Guitarra Eléctrica</td>
+                        <td class="teal-text text-darken-2">Guitarra Eléctrica</td>
                         <td>S/.350.00</td>
                         <td>2</td>
                         <td>20.00%</td>
@@ -144,13 +160,14 @@
         </div>
 
         <div class="row">
-            <div class="col l9">
-                <p>*-Indica campo requerido </p>
+            <div class="col l6">
+                <blockquote>*-Indica campo requerido </blockquote>
             </div>
-            <div class="col l3">
-                <a class="btn white black-text" href="#">Ok</a>
-                <a class="btn white black-text" href="#">Eliminar</a>
-                <a class="btn white black-text" href="#">Cancelar</a>
+                <div class="right">
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Ok</a>
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Eliminar</a>
+                    <a class="btn white black-text waves-effect waves-teal" href="#">Cancelar</a>
+                </div>
             </div>
         </div>
     </div>

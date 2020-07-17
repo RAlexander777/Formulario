@@ -1,12 +1,15 @@
-
-function mostraralerta()
-{       
-    alert('hizo clic!');
-}     
-function hacerclic()
-{       
-    var elemento=document.getElementsByTagName('a')[0];
-    elemento.addEventListener(‘click’, mostraralerta, false);
-}     
-
-window.addEventListener(‘load’, hacerclic, false); 
+window.onload= function()
+{
+  document.getElementById('alerta').onclick= function()
+  {
+    alert("Ok")
+  }
+  document.getElementById('alerta2').onclick= function()
+  {
+    alert("Eliminado")
+  }
+  document.getElementById('alerta3').onclick= function()
+  {
+    alert("Cancelado")
+  }
+}

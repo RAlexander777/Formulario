@@ -22,10 +22,10 @@
         </div>
         
         <div class="row">
-            <div class="col l6">
+            <div class="col l9">
                 <p>*-Indica campo requerido </p>
             </div>
-            <div class="col l6">
+            <div class="col l3">
                 <a class="btn white black-text" href="#">Ok</a>
                 <a class="btn white black-text" href="#">Eliminar</a>
                 <a class="btn white black-text" href="#">Cancelar</a>
@@ -34,92 +34,102 @@
 
         <div class="row">
             <div class="col m12 l6">
-                <p>Cliente:<input type="text" name="cliente"></p>
+                <p>Cliente:<input type="text" name="cliente" required></p>
             </div>
             <div class="col m12 l6">
-                <p>Dirección:<input type="text" name="direccion"></p>
+                <p>Dirección:<input type="text" name="direccion" required></p>
             </div>
         </div>
 
         <div class="row">
             <div class="col m12 l6">
-                <p>Empleado:<input type="text" name="empleado"></p>
+                <p>Empleado:<input type="text" name="empleado" required></p>
             </div>
             <div class="col m12 l6">
-                <p>Ciudad:<input type="text" name="ciudad"></p>
+                <p>Ciudad:<input type="text" name="ciudad" required></p>
             </div>
         </div>
 
         <div class="row">
             <div class="col m12 l6">
-                <p>Fecha de Pedido:<input type="date" name="fecha_pedido"></p>
+                <p>Fecha de Pedido:<input type="date" name="fecha_pedido" required></p>
             </div>
             <div class="col m12 l6">
-                <p>Región:<input type="text" name="region"></p>
+                <p>Región:<input type="text" name="region" required></p>
             </div>
         </div>
 
         <div class="row">
             <div class="col m12 l6">
-                <p>Fecha Requerida:<input type="date" name="fecha_req"></p>
+                <p>Fecha Requerida:<input type="date" name="fecha_req" required></p>
             </div>
             <div class="col m12 l6">
-                <p>Código Postal:<input type="number" name="postal"></p>
+                <p>Código Postal:<input type="number" name="postal" required></p>
             </div>
         </div>
 
         <div class="row">
             <div class="col m12 l6">
-                <p>Fecha de Envío:<input type="date" name="fecha_envio"></p>
+                <p>Fecha de Envío:<input type="date" name="fecha_envio" required></p>
             </div>
             <div class="col m12 l6">
-                <p>Lugar de Embarcación:<input type="text" name="lugar_emb"></p>
+                <p>Lugar de Embarcación:<input type="text" name="lugar_emb" required></p>
             </div>
         </div>
 
-        <table class="z-depth-3 section">
-            <thead>
-                <tr>
-                    <th>Nombre del producto</th>
-                    <th>Precio unitario</th>
-                    <th>Cantidad</th>
-                    <th>Descuento</th>
-                    <th>Categoría de producto</th>
-                    <th>Compañía proveedora</th>
-                    <th>Precio ampliado</th>
-                </tr>
-            </thead>
-    
-            <tbody>
-                <tr>
-                    <td>Mando PS4</td>
-                    <td>S/.50.00</td>
-                    <td>2</td>
-                    <td>20.00%</td>
-                    <td>Tecnología</td>
-                    <td>Sony</td>
-                    <td>S/.100.00</td>
-                </tr>
-                <tr>
-                    <td>Monitor LED 21.5</td>
-                    <td>S/.400.00</td>
-                    <td>1</td>
-                    <td>10.00%</td>
-                    <td>Tecnología</td>
-                    <td>HP</td>
-                    <td>S/.400.00</td>
-                </tr>
-                <tr>
-                    <td>Guitarra Eléctrica</td>
-                    <td>S/.350.00</td>
-                    <td>2</td>
-                    <td>20.00%</td>
-                    <td>Instrumentos</td>
-                    <td>Gibson</td>
-                    <td>S/.700.00</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="z-depth-3 section">
+            <div class="row">
+                <div class="col l12">
+                    <input class="section" type="search" name="busqueda" id="busqueda" placeholder="Búsqueda Rápida">
+                    <a class="btn white black-text" href="#">Detalles de nueva orden</a>
+                    <a class="btn white black-text" href="#">Acciones</a>
+                    <a class="btn white black-text" href="#">Reportar</a>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del producto</th>
+                        <th>Precio unitario</th>
+                        <th>Cantidad</th>
+                        <th>Descuento</th>
+                        <th>Categoría de producto</th>
+                        <th>Compañía proveedora</th>
+                        <th>Precio ampliado</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td>Mando PS4</td>
+                        <td>S/.50.00</td>
+                        <td>2</td>
+                        <td>20.00%</td>
+                        <td>Tecnología</td>
+                        <td>Sony</td>
+                        <td>S/.100.00</td>
+                    </tr>
+                    <tr>
+                        <td>Monitor LED 21.5</td>
+                        <td>S/.400.00</td>
+                        <td>1</td>
+                        <td>10.00%</td>
+                        <td>Tecnología</td>
+                        <td>HP</td>
+                        <td>S/.400.00</td>
+                    </tr>
+                    <tr>
+                        <td>Guitarra Eléctrica</td>
+                        <td>S/.350.00</td>
+                        <td>2</td>
+                        <td>20.00%</td>
+                        <td>Instrumentos</td>
+                        <td>Gibson</td>
+                        <td>S/.700.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
         <div class="row">
                 <div class="col l6">
@@ -129,15 +139,15 @@
                 </div>
 
                 <div class="col l6">
-                    
+                        
                 </div>
         </div>
 
         <div class="row">
-            <div class="col l6">
+            <div class="col l9">
                 <p>*-Indica campo requerido </p>
             </div>
-            <div class="col l6">
+            <div class="col l3">
                 <a class="btn white black-text" href="#">Ok</a>
                 <a class="btn white black-text" href="#">Eliminar</a>
                 <a class="btn white black-text" href="#">Cancelar</a>
